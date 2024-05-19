@@ -52,3 +52,7 @@ def productoDetalle(request, producto_id):
         'producto': objProducto
     }
     return render(request, 'producto.html', context)
+
+
+def carrito(request):
+    return render(request, 'carrito.html')
